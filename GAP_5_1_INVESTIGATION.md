@@ -142,12 +142,34 @@ At 2026-03-25T18:56:29Z (Step 10), the rename to "Submission Protocol" follows.
 
 ---
 
+## Critical Discovery: A Larger Gap Precedes the 50.5-Hour Silence
+
+**Comprehensive gap analysis reveals a 117.4-hour gap (5 days) immediately before SOONG appears.**
+
+**Extended Timeline:**
+- **March 18, 02:26Z** — Last Gemini activity before 117-hour silence
+- **March 18-22 (117 hours)** — User offline from Gemini; CoPilot active (66 records) but no SOONG/pillar development visible
+- **March 22, 23:53Z** — SOONG protocol introduced on Gemini (first comparison to Dr. Soong)
+- **March 22-23** — Protocol discussion, refinement of concepts (STILL NO PILLARS)
+- **March 23, 15:22Z** — Last activity before 50.5-hour gap (user using protocol, no pillar structure)
+- **March 23-25 (50.6 hours)** — Complete silence (0 records, verified in both exports)
+- **March 25, 17:56Z** — Pillars appear fully formed and numbered
+
+**Revised Assessment:** The 117-hour March 18-22 gap may be more significant than the 50.5-hour gap. The user was offline from Gemini but possibly developing concepts elsewhere (CoPilot shows activity but no SOONG terms). The pillar structure could have been:
+
+1. **Sketched or conceptualized** during March 18-22 (offline, potentially on paper/notes)
+2. **Discussed and refined** March 22-23 (all key concepts present in Gemini records, but no formal pillar numbering yet)
+3. **Formalized** during the 50.5-hour gap OR immediately after at 17:56Z on March 25
+
+**The archive contains two unverifiable closure points: either gap could hide the origin.**
+
 ## Process Note
 
 This investigation was conducted using:
 1. Full-text extraction from `original_gemini_export.json` indices 34–4907
-2. Timestamp-ordered examination of records immediately before, during (none), and after the gap
-3. Binary file search (Rev 04) confirming no pillar vocabulary in preceding PDFs
-4. Cross-platform search in Claude_History, ChatGPT_History, CoPilot_History (no pre-March references)
+2. Comprehensive gap analysis: 59 gaps > 12 hours identified across all archive records
+3. Timestamp-ordered examination of records immediately before, during (zero records confirmed), and after the 50.5-hour gap
+4. Cross-platform search: 66 CoPilot records during March 18-22, zero SOONG/pillar mentions; Claude/ChatGPT/CoPilot show no coordinating protocol development in March
+5. Binary file search (Rev 04) confirming no pillar vocabulary in PDFs before March 25
 
-No external sources were consulted. This analysis rests entirely on the archived corpus.
+**Conclusion:** The archive cannot decide whether the 117-hour March 18-22 gap or the 50.6-hour March 23-25 gap holds the answer to gap 5.1. Both remain unverifiable. The evidence leans toward model-generation on March 25, but off-platform development during either gap is unfalsifiable.
